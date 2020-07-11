@@ -1,7 +1,7 @@
-File count in the directory and sub-directory
+File count in a directory and sub-directories
 
     [sudo] find . -type f -print | wc -l
 
-Exclude a direcoty form the count
+Exclude a directory form the count
 
     find . -type f -not -path "./WPimages/*" -print | wc -l
