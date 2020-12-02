@@ -13,4 +13,10 @@
 
 ##### gzip
 gzip compress a single file, resulting a .gz file
-    
+
+##### rsync
+>* -n for dry run
+>* -a for preserve all original settings
+>* -v for verbose
+
+    rsync -avn --progress sourcefolder destinationfolder --exclude thefoldertoexclude --exclude anotherfolder
