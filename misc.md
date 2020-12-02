@@ -10,4 +10,7 @@
 ###### untar and decompress a directory
  
     tar zxvf [filename].tar.gz
+
+##### gzip
+gzip compress a single file, resulting a .gz file
     
