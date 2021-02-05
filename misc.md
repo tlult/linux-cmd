@@ -23,4 +23,6 @@ gzip compress a single file, resulting a .gz file
 
 ##### ln
 creates multiple sym links in the current directory(.) pointing to all(\*) first-level items (either directories or files)
+    
     ln -s /full/path/to/TARGET/Directory/* .
+
