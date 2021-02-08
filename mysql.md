@@ -9,8 +9,8 @@ sudo apt-get install mysql-workbench-community
 
     mysql -h xxxx -u xxx -p
     show databases;
-    use DBNAME;
+    create databse NEWDATABASE;
     show tables;
-    
+    quit;
 
     
